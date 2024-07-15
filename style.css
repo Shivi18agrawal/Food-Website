@@ -1,0 +1,351 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css');
+
+
+
+.bodym{
+    margin-top: 0px;
+    padding-top: 0px;
+}
+
+
+
+@media screen and (max-width: 1199px) {
+    .counter-row .counter-item {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 1199px) {
+    .counters {
+        padding: 7.5rem 15px;
+    }
+    .img-t{
+        width: 400px;
+        overflow-x: hidden;
+        overflow: hidden;
+    }
+    .heroh{
+        padding-top: 150px;
+        padding-bottom: 0px;
+    }
+    
+}
+@media screen and (max-width: 600px){
+    .img-t{
+        width: 400px;
+    }
+    .banner{
+width: auto;
+overflow: hidden;
+    }
+}
+    
+/* animation  */
+.animate__animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+}
+
+/*.animate-hero {
+    animation: fadeInDown 1s both;
+}
+
+.animate-para {
+    animation: fadeInUp 1s both;
+    animation-delay: 0.5s;
+}
+*/
+.btn.animate__animated {
+    animation-name: fadeIn;
+    animation-delay: 1s;
+}
+.navbar.animate__animated {
+    animation-name: slideInDown;
+}
+/*.animate-heading {
+    animation: fadeInLeft 1s both;
+}
+.animate-text {
+    animation: fadeInRight 1s 0.5s both;
+}
+
+.animate-column {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    opacity: 0; /* Start with invisible elements */
+
+/*.animate-column-1 {
+    animation-name: fadeInLeft;
+    animation-delay: 0.5s;
+}
+
+.animate-column-2 {
+    animation-name: fadeInUp;
+    animation-delay: 1s;
+}
+
+.animate-column-3 {
+    animation-name: fadeInRight;
+    animation-delay: 1.5s;
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0;
+        transform: translateX(50px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.animate-img {
+    animation: slideInDown 2s 0.5s both;
+}
+
+/* animation ends */
+
+.banner{
+    background-image: url(food_header_image.jpg);  
+    background-size: cover;
+    background-position: center;
+    min-height: 70vh;
+    overflow: hidden;
+}
+.sticky{
+    background-color: #e2e2e2;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+
+.slider-social {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 30px;
+    z-index: 13;
+}
+
+.list-unstyled {
+    padding-left: 0;
+    list-style: none;
+}
+bottom-nav, .header-appear .bottom-nav {
+    position: absolute;
+    top: auto;
+    height: 70px;
+    bottom: 0;
+    -o-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+.navbar-top-default{
+    width:100%;
+    z-index: 99;
+   overflow:hidden;
+}
+.paddingp{
+    padding-left:60px;
+    padding-right:60px;
+}
+ .nav-link{
+    padding-left:100px;
+    padding-right:100px;
+}
+.paddingt{
+    padding-left: 100px;
+    padding-right: 100px;
+}
+.paddingm{
+    margin-left:30px;
+    margin-right:30px;
+}
+.padding_1section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+    overflow: hidden;
+}
+.team-box{
+    text-align: center;
+    margin: 0 10px;
+    display: inline-block;
+    max-width: 380px;
+    border: 20px solid #ffffff;
+    background-color: #ffffff;
+}
+.team-image .team-box{
+    position: relative;
+    overflow: hidden;
+}
+.team-text .team-box{
+    text-align: center;
+    font-size: 14px;
+    padding: 2rem 0 2.5rem 0;
+}
+.boxm{
+    background-color: white; /* light gray background */
+    border: 2px solid lightgray; /* light gray border */
+}
+.team-progress{
+    padding-bottom: 1rem;
+}
+.text-start{
+    text-align: left; 
+}
+
+body{margin-top:20px;}
+.pricing-box {
+  -webkit-box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 5px 30px -10px rgba(0, 0, 0, 0.1);
+  padding: 35px 50px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.pricing-box .plan {
+  font-size: 34px;
+}
+
+.pricing-badge {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  right: 0;
+  width: 100%;
+  display: block;
+  font-size: 15px;
+  padding: 0;
+  overflow: hidden;
+  height: 100px;
+}
+
+.pricing-badge .badge {
+  float: right;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  right: -67px;
+  top: 17px;
+  position: relative;
+  text-align: center;
+  width: 200px;
+  font-size: 13px;
+  margin: 0;
+  padding: 7px 10px;
+  font-weight: 500;
+  color: #ffffff;
+  background: #fb7179;
+}
+.mb-2, .my-2 {
+    margin-bottom: .5rem!important;
+}
+p {
+    line-height: 1.7;
+}
+.testimonial-icon{
+    font-size:2.2rem
+}
+ .testimonial-image {
+    position: relative;
+    overflow: hidden;
+    max-width: 150px;
+    max-height: 150px;
+    margin: 2rem auto 1.5rem auto;
+    border-radius: 50%;
+    display: block;
+}
+.bg-img1{
+    background-image: url(bg-img1.jpg);
+  
+}
+[class*=bg-img] {
+    position: relative;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.counter-row{
+    margin: 0 auto;
+    position: relative;
+}
+.bg-overlay{
+    top:0;
+    left:0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.counter-row .counter-item {
+    width: 50%;
+    text-align: left;
+    display: inline-block;
+    float:left;
+    padding-bottom: 40px;
+}
+.gradient-bg1, .team-box .overlay:before, .cube-portfolio1 .cbp-l-grid-mosaic-flat .cbp-caption-activeWrap, .overlay-two:before, .price-two.hvr-gradient:hover, .loader {
+ 
+    background: linear-gradient(to right, #bf0000 2%, #800000 82%);
+}
+.opacity-8 {
+    opacity: .8;
+}
+.contact-form {
+    max-width: 750px;
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+}
+.contact-form .form-group {
+    margin-bottom: 1.5rem;
+}
+.contact-form .form-control {
+    border: none;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 12px 0;
+    background: #fff;
+    letter-spacing: .7px;
+    font-weight: 300;
+    border-radius: 0;
+
+    box-shadow: none;
+    height: 44px;
+    color: #a5a5a5;
+    font-size: 14px;
+    position: relative;
+    -o-transition: border .9s ease;
+    transition: border .9s ease;
+}
+.form-control {
+    display: block;
+    width: 100%;
+    line-height: 1.5;
+    appearance: none;
+}
